@@ -16,3 +16,4 @@ C:\Users\RenatoLuizCarvalho\source\repos\HoursCalculation\bin\Debug\HoursCalcula
 C:\Users\RenatoLuizCarvalho\source\repos\HoursCalculation\bin\Debug\HoursCalculation.application
 C:\Users\RenatoLuizCarvalho\source\repos\HoursCalculation\obj\Debug\HoursCalculation.exe.manifest
 C:\Users\RenatoLuizCarvalho\source\repos\HoursCalculation\obj\Debug\HoursCalculation.application
+C:\Users\RenatoLuizCarvalho\source\repos\HoursCalculation\obj\Debug\HoursCalculation.csprojAssemblyReference.cache

@@ -18,14 +18,24 @@ namespace HoursCalculation
 
         private void btnDoThat_Click(object sender, RoutedEventArgs e)
         {
+            const int lunchTime = 1;
+
+            //Week days
             var monday = TimeSpan.Parse(txtMonday.Text).TotalHours;
             var tuesday = TimeSpan.Parse(txtTuesday.Text).TotalHours;
             var wednesday = TimeSpan.Parse(txtWednesday.Text).TotalHours;
             var thursday = TimeSpan.Parse(txtThursday.Text).TotalHours;
 
-            var totalHours = int.Parse(txtWeekHours.Text) - (monday + tuesday + wednesday + thursday);
+            //Total values
+            var weekHours = int.Parse(txtWeekHours.Text);
+            var startHour = TimeSpan.Parse(txtStartHour.Text);
 
-            txtRemainHours.Text = TimeSpan.FromHours(totalHours).ToString();
+            //Calcs
+            var totalHours = weekHours - (monday + tuesday + wednesday + thursday);
+
+            //Print
+            lblRemainHours.Content = TimeSpan.FromHours(totalHours).ToString();
+            lblEndHour.Content = TimeSpan.FromHours(startHour.TotalHours + totalHours + lunchTime);
         }
     }
 }

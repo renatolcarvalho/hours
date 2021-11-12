@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HoursCalculation.exe" size="11776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HoursCalculation.exe" size="12288">
       <assemblyIdentity name="HoursCalculation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MFRVROpgBKZK8RzMbTjQ54n/l+4DMn/wrQGowPXCpiE=</dsig:DigestValue>
+        <dsig:DigestValue>jNjeaNPGfs3lb7miv7p7bwMPyz3HOFbuQ5pdVTaktu4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
